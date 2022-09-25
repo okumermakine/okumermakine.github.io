@@ -1,7 +1,7 @@
 <template>
   <div>
-    <main-banner/>
-    <about-us/>
+    <main-banner class="mt-0"/>
+    <about-us />
     <products/>
     <contact-us/>
   </div>

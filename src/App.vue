@@ -2,7 +2,7 @@
   <v-app>
     <v-main>
       <NavigationBar/>
-      <HelloWorld class="mt-5"/>
+      <HelloWorld/>
     </v-main>
   </v-app>
 </template>

@@ -1,8 +1,10 @@
 <template>
-  <v-row>
-    <v-col cols="2"/>
-    <v-col cols="8">
-      <h2 class="py-10">Ürünlerimiz</h2>
+  <v-row class="products d-flex bg-brown-lighten-5">
+    <v-col cols="2">
+      <div id="products" class="position-relative"></div>
+    </v-col>
+    <v-col cols="8" class="align-self-center ">
+      <h1 class="py-10 text-center text-h4">Ürünlerimiz</h1>
       <v-row class="align-content-center">
           <v-col
             cols="4"
@@ -10,9 +12,9 @@
             :key="product[0]">
             <v-card
                 elevation="2"
-                class="text-center card pa-3"
+                class="d-flex align-center justify-center text-center card pa-3 bg-brown-lighten-4"
             >
-              <h3> {{ product }} </h3>
+              <h4 class="text-h6 text-grey-darken-2"> {{ product }} </h4>
             </v-card>
           </v-col>
       </v-row>
@@ -55,7 +57,9 @@ export default {
 
 <style scoped>
   .card {
-    height: 75px;
-    width: 240px;
+    height: 120px;
+  }
+  .products {
+    height: 105vh;
   }
 </style>

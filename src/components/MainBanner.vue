@@ -1,12 +1,13 @@
 <template>
-  <v-parallax src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg">
+  <div id="main"></div>
+  <v-parallax src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg" class="main-banner">
     <v-row class="align-center h-100 text-white">
       <v-col class="text-center">
-        <h1 class="text-h4 font-weight-thin mb-4">
-          OkumerMakina
+        <h1 class="text-h3 font-weight-thin mb-4">
+          OkumerMakine
         </h1>
         <h4 class="subheading">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis corporis culpa cumque delectus deserunt ea iste laudantium maxime natus odio placeat, quibusdam quo reiciendis rem tempora. Aspernatur enim molestias non.
+          Düşün! Tasarla! Üret!
         </h4>
       </v-col>
     </v-row>
@@ -20,5 +21,7 @@ export default {
 </script>
 
 <style scoped>
-
+ .main-banner{
+   height: 105vh;
+ }
 </style>

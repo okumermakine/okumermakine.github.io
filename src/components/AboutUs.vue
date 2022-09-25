@@ -1,16 +1,18 @@
 <template>
-  <v-row class="h-100 py-16">
+  <v-row class="d-flex bg-blue-grey-lighten-5 about-us">
     <v-col
         cols="2"
-    ></v-col>
+    >
+      <div id="about-us" class="position-relative"></div>
+    </v-col>
     <v-col
       cols="8"
-      class="align-content-center"
+      class="align-content-center align-self-center"
     >
-      <h2 class="mb-10">Hakkımızda</h2>
+      <h1 class="mb-10 text-center text-h4">Hakkımızda</h1>
       <v-sheet
           :elevation="6"
-          class="mx-auto mt-5 text-center pa-3"
+          class="mx-auto mt-5 text-center pa-3 text-h6 text-grey-darken-1"
       >
         2021 yılında Denizli'de kurulan OKUMER Makine; yüksek hız ve kalite ile üretime yüksek katma değer getiren mermer makinalarını Türkiye'de başarıyla imal etmektedir.
         Teknolojik donanım ve yetkili servis ağı ile sektöre fayda sağlamak; Çözüm ortaklarına katma değer yaratmak için belirlediği bu yolda başarıyla ilerlemektedir.
@@ -34,5 +36,7 @@ export default {
 </script>
 
 <style scoped>
-
+  .about-us{
+    height: 105vh;
+  }
 </style>
