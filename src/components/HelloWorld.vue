@@ -1,6 +1,6 @@
 <template>
   <div>
-    <main-banner class="mt-0"/>
+    <main-banner/>
     <about-us />
     <products/>
     <contact-us/>

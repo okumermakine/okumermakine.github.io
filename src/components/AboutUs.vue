@@ -1,5 +1,6 @@
 <template>
-  <v-row class="d-flex bg-blue-grey-lighten-5 about-us">
+  <v-parallax src="https://www.cciklimlendirme.com/images/hakkimizda.jpg">
+    <v-row class="d-flex about-us">
     <v-col
         cols="2"
     >
@@ -9,10 +10,10 @@
       cols="8"
       class="align-content-center align-self-center"
     >
-      <h1 class="mb-10 text-center text-h4">Hakkımızda</h1>
+      <h1 class="mb-10 text-center text-h4 text-white">Hakkımızda</h1>
       <v-sheet
           :elevation="6"
-          class="mx-auto mt-5 text-center pa-3 text-h6 text-grey-darken-1"
+          class="mx-auto mt-5 text-center pa-3 text-h6 text-grey-darken-1 about-us-card rounded-shaped "
       >
         2021 yılında Denizli'de kurulan OKUMER Makine; yüksek hız ve kalite ile üretime yüksek katma değer getiren mermer makinalarını Türkiye'de başarıyla imal etmektedir.
         Teknolojik donanım ve yetkili servis ağı ile sektöre fayda sağlamak; Çözüm ortaklarına katma değer yaratmak için belirlediği bu yolda başarıyla ilerlemektedir.
@@ -23,6 +24,7 @@
       </v-sheet>
     </v-col>
   </v-row>
+  </v-parallax>
 </template>
 
 <script>
@@ -38,5 +40,8 @@ export default {
 <style scoped>
   .about-us{
     height: 105vh;
+  }
+  .about-us-card {
+    background: rgba(255,255,255, 0.7);
   }
 </style>

@@ -1,14 +1,14 @@
 <template>
   <div id="main"></div>
-  <v-parallax src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg" class="main-banner">
+  <v-parallax src="https://www.destekkaynak.com/wp-content/uploads/2022/04/s1.jpg" class="main-banner">
     <v-row class="align-center h-100 text-white">
       <v-col class="text-center">
-        <h1 class="text-h3 font-weight-thin mb-4">
-          OkumerMakine
+        <h1 class="text-h2 font-weight-thin mb-4">
+          Okumer Makine
         </h1>
-        <h4 class="subheading">
+        <h3 class="subheading">
           Düşün! Tasarla! Üret!
-        </h4>
+        </h3>
       </v-col>
     </v-row>
   </v-parallax>
@@ -22,6 +22,6 @@ export default {
 
 <style scoped>
  .main-banner{
-   height: 105vh;
+   height: 100vh;
  }
 </style>
