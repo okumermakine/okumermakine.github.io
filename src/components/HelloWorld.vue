@@ -2,6 +2,7 @@
   <div>
     <main-banner/>
     <about-us />
+    <product-catalog/>
     <products/>
     <contact-us/>
   </div>
@@ -12,6 +13,7 @@ import MainBanner from "@/components/MainBanner";
 import AboutUs from "@/components/AboutUs";
 import Products from "@/components/Products";
 import ContactUs from "@/components/ContactUs";
+import ProductCatalog from "@/components/ProductCatalog";
 
 export default {
   name: 'HelloWorld',
@@ -19,6 +21,7 @@ export default {
     MainBanner,
     AboutUs,
     Products,
+    ProductCatalog,
     ContactUs
   },
   data: () => ({

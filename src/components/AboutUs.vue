@@ -2,12 +2,14 @@
   <v-parallax src="https://www.cciklimlendirme.com/images/hakkimizda.jpg">
     <v-row class="d-flex about-us">
     <v-col
-        cols="2"
+        cols="0"
+        sm="2"
     >
       <div id="about-us" class="position-relative"></div>
     </v-col>
     <v-col
-      cols="8"
+      cols="12"
+      sm="8"
       class="align-content-center align-self-center"
     >
       <h1 class="mb-10 text-center text-h4 text-white">Hakkımızda</h1>

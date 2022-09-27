@@ -4,7 +4,7 @@
     <v-row class="align-center h-100 text-white">
       <v-col class="text-center">
         <h1 class="text-h2 font-weight-thin mb-4">
-          Okumer Makine
+          OKUMER MAKINE
         </h1>
         <h3 class="subheading">
           Düşün! Tasarla! Üret!

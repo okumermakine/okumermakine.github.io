@@ -1,10 +1,10 @@
 <template>
   <v-parallax src="http://www.bafra.bel.tr/Uploads/Resimler/Sayfalar/2015/3/Iletisim/Bld-3-Iletisim-1032015101254950.jpg">
     <v-row class="contact-us d-flex">
-      <v-col cols="3">
+      <v-col cols="1" sm="3">
         <div id="contact-us" class="position-relative"></div>
       </v-col>
-      <v-col cols="6" class="align-self-center contact-us-card rounded-shaped">
+      <v-col cols="10" sm="6" class="align-self-center contact-us-card rounded-shaped">
         <h1 class="mb-8 text-center">Bize Ulaşın</h1>
         <p class="text-center mb-3">
           Okumer Makine Endüstri Sanayi ve Ticaret Limited Şirketi
